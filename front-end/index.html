@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css"> 
+
+</head>
+<body onload="getData()">
+    <div class="mainContainer">
+        <div class="portrait">
+            <img src="http://localhost:3000/mona.jpeg" alt="">
+        </div>
+    
+        <div class="header">
+            <p>Hi, I am <span id="name">Name</span>, <span id="age"></span>,</p>
+            <p id="profession"></p>
+            <p>based in UB.</p>        
+        </div>
+    
+        <div class="desciption text">
+            <p id="description"></p>
+        </div>
+    
+        <div class="contacts">
+            <p>I'm on <a href="https://www.facebook.com/">facebook</a> and <a href="https://www.instagram.com/?hl=en">instagram</a>.</p>         
+        </div> 
+
+        <div class="email">
+            <p>For collabration or questions:</p>
+            <a href = "mailto: temulenn@gmail.com">temulenn@gmail.com</a>
+        </div>
+
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
